@@ -20,22 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf24fa13-5b3b-4ae2-848d-7436f045d2b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/snag/ScraperVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/ScraperVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/snag/helpers/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/helpers/Log.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587826607618</updated>
-      <workItem from="1587826623784" duration="11772000" />
+      <workItem from="1587826623784" duration="13057000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1587826803358</created>
@@ -194,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587861219665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Upgrade gradle to be compatible with java 14 + more boilerplate">
+      <created>1587862849801</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587862849801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +212,8 @@
     <MESSAGE value="Initial Verticle Functionality" />
     <MESSAGE value="Boilerplate for scraper code" />
     <MESSAGE value="ScraperVerticle should be worker verticle" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScraperVerticle should be worker verticle" />
+    <MESSAGE value="Upgrade gradle to be compatible with java 14 + more boilerplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade gradle to be compatible with java 14 + more boilerplate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="128" y="0" key="#Project_Structure" timestamp="1587862418142">
@@ -240,38 +236,38 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="415" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1587848637451" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587861219416">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587862849484">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587861219416" />
-    <state width="619" height="227" key="GridCell.Tab.0.bottom" timestamp="1587862739173">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587862849484" />
+    <state width="619" height="306" key="GridCell.Tab.0.bottom" timestamp="1587912772957">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="227" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587862739173" />
+    <state width="619" height="306" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587912772957" />
     <state width="619" height="264" key="GridCell.Tab.0.bottom/0.23.1280.739@0.23.1280.739" timestamp="1587862553196" />
-    <state width="619" height="227" key="GridCell.Tab.0.center" timestamp="1587862739172">
+    <state width="619" height="306" key="GridCell.Tab.0.center" timestamp="1587912772956">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="227" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587862739172" />
+    <state width="619" height="306" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587912772956" />
     <state width="619" height="264" key="GridCell.Tab.0.center/0.23.1280.739@0.23.1280.739" timestamp="1587862553194" />
-    <state width="619" height="227" key="GridCell.Tab.0.left" timestamp="1587862739172">
+    <state width="619" height="306" key="GridCell.Tab.0.left" timestamp="1587912772955">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="227" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587862739172" />
+    <state width="619" height="306" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587912772955" />
     <state width="619" height="264" key="GridCell.Tab.0.left/0.23.1280.739@0.23.1280.739" timestamp="1587862553193" />
-    <state width="619" height="227" key="GridCell.Tab.0.right" timestamp="1587862739263">
+    <state width="619" height="306" key="GridCell.Tab.0.right" timestamp="1587912772956">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="227" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587862739263" />
+    <state width="619" height="306" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587912772956" />
     <state width="679" height="264" key="GridCell.Tab.0.right/0.23.1280.739@0.23.1280.739" timestamp="1587862553324" />
     <state x="128" y="0" key="SettingsEditor" timestamp="1587827415209">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="128" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1587827415209" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1587861221099">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1587862851400">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1587861221099" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1587862851400" />
     <state x="431" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587826923313">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

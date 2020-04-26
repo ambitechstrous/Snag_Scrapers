@@ -41,8 +41,12 @@ public class MainVerticle extends AbstractVerticle implements Log {
 
     private void handleRequest(final HttpServerRequest request) {
         final String query = request.getParam(s_query);
+        // Don't send to verticle if query is empty
+        if (query == null || query.isBlank())
+            request.response().setStatusCode(500).end();
+
         vertx.eventBus().send(ScraperVerticle.ADDRESS, query);
-        request.response().end();
+        request.response().setStatusCode(200).end();
     }
 
     private String formatErrorMessage(final LocalDateTime timeStamp) {
