@@ -1,5 +1,6 @@
 package snag;
 
+import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Launcher;
 import snag.helpers.Log;
 import io.vertx.core.AbstractVerticle;
@@ -21,7 +22,9 @@ public class MainVerticle extends AbstractVerticle implements Log {
     @Override
     public void start() {
         final ScraperVerticle scraperVerticle = new ScraperVerticle();
-        vertx.deployVerticle(scraperVerticle);
+        vertx.deployVerticle(
+                scraperVerticle,
+                new DeploymentOptions().setWorker(true));
 
         final HttpServer server = vertx.createHttpServer()
                 .requestHandler(this::handleRequest);

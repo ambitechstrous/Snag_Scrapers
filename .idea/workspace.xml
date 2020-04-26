@@ -19,20 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf24fa13-5b3b-4ae2-848d-7436f045d2b2" name="Default Changelist" comment="Initial Verticle Functionality">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/snag/ScraperVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="cf24fa13-5b3b-4ae2-848d-7436f045d2b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ScraperVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/helpers/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/NotificationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/utils/NotificationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587826607618</updated>
-      <workItem from="1587826623784" duration="9491000" />
+      <workItem from="1587826623784" duration="10169000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1587826803358</created>
@@ -171,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587842859152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Boilerplate for scraper code">
+      <created>1587860563388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587860563389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +188,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Gradle" />
     <MESSAGE value="Initial Verticle Functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Verticle Functionality" />
+    <MESSAGE value="Boilerplate for scraper code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Boilerplate for scraper code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="128" y="0" key="#Project_Structure" timestamp="1587844348087">
@@ -215,10 +212,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="415" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1587848637451" />
-    <state x="191" y="0" key="CommitChangelistDialog2" timestamp="1587844525653">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587860563173">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="191" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587844525653" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587860563173" />
     <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1587849081598">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -239,10 +236,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="128" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1587827415209" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1587842867102">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1587860565593">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1587842867102" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1587860565593" />
     <state x="431" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587826923313">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
