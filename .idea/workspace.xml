@@ -20,8 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf24fa13-5b3b-4ae2-848d-7436f045d2b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snag/ScraperVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/ScraperVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snag/helpers/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/helpers/Log.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +64,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Snag_Scrapers" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Snag_Scrapers" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -92,7 +111,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -144,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587826607618</updated>
-      <workItem from="1587826623784" duration="10169000" />
+      <workItem from="1587826623784" duration="11772000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1587826803358</created>
@@ -167,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587860563389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ScraperVerticle should be worker verticle">
+      <created>1587861219665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587861219665</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,13 +216,14 @@
     <MESSAGE value="Add Gradle" />
     <MESSAGE value="Initial Verticle Functionality" />
     <MESSAGE value="Boilerplate for scraper code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Boilerplate for scraper code" />
+    <MESSAGE value="ScraperVerticle should be worker verticle" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScraperVerticle should be worker verticle" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="128" y="0" key="#Project_Structure" timestamp="1587844348087">
+    <state x="128" y="0" key="#Project_Structure" timestamp="1587862418142">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="128" y="0" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1587844348087" />
+    <state x="128" y="0" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1587862418142" />
     <state x="70" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587849069062">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -212,34 +240,38 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="415" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1587848637451" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587860563173">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587861219416">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587860563173" />
-    <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1587849081598">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587861219416" />
+    <state width="619" height="227" key="GridCell.Tab.0.bottom" timestamp="1587862739173">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587849081598" />
-    <state width="619" height="212" key="GridCell.Tab.0.center" timestamp="1587849081597">
+    <state width="619" height="227" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587862739173" />
+    <state width="619" height="264" key="GridCell.Tab.0.bottom/0.23.1280.739@0.23.1280.739" timestamp="1587862553196" />
+    <state width="619" height="227" key="GridCell.Tab.0.center" timestamp="1587862739172">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587849081597" />
-    <state width="619" height="212" key="GridCell.Tab.0.left" timestamp="1587849081596">
+    <state width="619" height="227" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587862739172" />
+    <state width="619" height="264" key="GridCell.Tab.0.center/0.23.1280.739@0.23.1280.739" timestamp="1587862553194" />
+    <state width="619" height="227" key="GridCell.Tab.0.left" timestamp="1587862739172">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587849081596" />
-    <state width="619" height="212" key="GridCell.Tab.0.right" timestamp="1587849081597">
+    <state width="619" height="227" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587862739172" />
+    <state width="619" height="264" key="GridCell.Tab.0.left/0.23.1280.739@0.23.1280.739" timestamp="1587862553193" />
+    <state width="619" height="227" key="GridCell.Tab.0.right" timestamp="1587862739263">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587849081597" />
+    <state width="619" height="227" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587862739263" />
+    <state width="679" height="264" key="GridCell.Tab.0.right/0.23.1280.739@0.23.1280.739" timestamp="1587862553324" />
     <state x="128" y="0" key="SettingsEditor" timestamp="1587827415209">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="128" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1587827415209" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1587860565593">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1587861221099">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1587860565593" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1587861221099" />
     <state x="431" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587826923313">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -248,9 +280,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="406" y="296" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.800@0.0.1280.800" timestamp="1587826918528" />
-    <state x="305" y="185" width="670" height="675" key="run.anything.popup" timestamp="1587848322311">
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup" timestamp="1587861580543">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="185" width="670" height="675" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1587848322311" />
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1587861580543" />
   </component>
 </project>

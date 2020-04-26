@@ -27,5 +27,6 @@ public class ScraperVerticle extends AbstractVerticle implements Log {
 
     private void runScrapers(final String query) {
         // TODO Run actual Scrapers
+        logger().info("This will run scrapers for query: " + query);
     }
 }
