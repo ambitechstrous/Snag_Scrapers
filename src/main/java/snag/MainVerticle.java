@@ -1,24 +1,30 @@
-import helpers.Log;
+package snag;
+
+import io.vertx.core.Launcher;
+import snag.helpers.Log;
 import io.vertx.core.AbstractVerticle;
-import io.vertx.core.Future;
-import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpServer;
-import io.vertx.core.spi.logging.LogDelegate;
-import utils.NotificationUtils;
+import io.vertx.core.http.HttpServerRequest;
+import snag.utils.NotificationUtils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class MainVerticle extends AbstractVerticle implements Log {
 
-    private HttpServer server;
+    private static final String s_query = "query";
+
+    public static void main(final String... args) {
+        Launcher.executeCommand("run", MainVerticle.class.getName());
+    }
 
     @Override
     public void start() {
-        server = vertx.createHttpServer().requestHandler(req -> {
-            final String productName = req.getParam("productName");
-            //req.bodyHandler(this::sendMessage);
-        });
+        final ScraperVerticle scraperVerticle = new ScraperVerticle();
+        vertx.deployVerticle(scraperVerticle);
+
+        final HttpServer server = vertx.createHttpServer()
+                .requestHandler(this::handleRequest);
 
         server.listen(8080, res -> {
             if (res.failed()) {
@@ -30,8 +36,9 @@ public class MainVerticle extends AbstractVerticle implements Log {
         });
     }
 
-    private void sendMessage(final Buffer body) {
-
+    private void handleRequest(final HttpServerRequest request) {
+        final String query = request.getParam(s_query);
+        vertx.eventBus().send(ScraperVerticle.ADDRESS, query);
     }
 
     private String formatErrorMessage(final LocalDateTime timeStamp) {

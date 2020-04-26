@@ -19,22 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf24fa13-5b3b-4ae2-848d-7436f045d2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ScraperVerticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/NotificationUtils.java" afterDir="false" />
+    <list default="true" id="cf24fa13-5b3b-4ae2-848d-7436f045d2b2" name="Default Changelist" comment="Initial Verticle Functionality">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/snag/ScraperVerticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/MainVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScraperVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/helpers/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/NotificationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snag/utils/NotificationUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +47,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Snag_Scrapers" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Snag_Scrapers" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -94,9 +100,50 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Server">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.vertx.core.Launcher" />
+      <module name="Snag_Scrapers.main" />
+      <option name="PROGRAM_PARAMETERS" value="MainVerticle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+            <option value="build" />
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Gradle.Server" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -108,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587826607618</updated>
-      <workItem from="1587826623784" duration="3707000" />
+      <workItem from="1587826623784" duration="9491000" />
     </task>
     <task id="LOCAL-00001" summary="Add Gradle">
       <created>1587826803358</created>
@@ -117,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587826803358</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Verticle Functionality">
+      <created>1587842859152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587842859152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,21 +191,58 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Gradle" />
+    <MESSAGE value="Initial Verticle Functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Verticle Functionality" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="128" y="0" key="#Project_Structure" timestamp="1587844348087">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="128" y="0" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1587844348087" />
+    <state x="70" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587849069062">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="70" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1587849069062" />
     <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1587827563957">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1587827563957" />
-    <state x="191" y="0" key="CommitChangelistDialog2" timestamp="1587826803089">
+    <state x="258" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587848641335">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="191" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587826803089" />
+    <state x="258" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1587848641335" />
+    <state x="415" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587848637451">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="415" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1587848637451" />
+    <state x="191" y="0" key="CommitChangelistDialog2" timestamp="1587844525653">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="191" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1587844525653" />
+    <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1587849081598">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587849081598" />
+    <state width="619" height="212" key="GridCell.Tab.0.center" timestamp="1587849081597">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587849081597" />
+    <state width="619" height="212" key="GridCell.Tab.0.left" timestamp="1587849081596">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587849081596" />
+    <state width="619" height="212" key="GridCell.Tab.0.right" timestamp="1587849081597">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587849081597" />
     <state x="128" y="0" key="SettingsEditor" timestamp="1587827415209">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="128" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1587827415209" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1587842867102">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1587842867102" />
     <state x="431" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587826923313">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -160,9 +251,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="406" y="296" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.800@0.0.1280.800" timestamp="1587826918528" />
-    <state x="305" y="185" key="run.anything.popup" timestamp="1587827422431">
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup" timestamp="1587848322311">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1587827422431" />
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1587848322311" />
   </component>
 </project>

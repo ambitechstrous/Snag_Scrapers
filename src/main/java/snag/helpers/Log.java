@@ -1,4 +1,4 @@
-package helpers;
+package snag.helpers;
 
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
